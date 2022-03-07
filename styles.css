@@ -1,0 +1,61 @@
+/* Created by Youness Oubelkacem */
+
+body {
+    font-weight:bold;
+    background:#9A5300;
+}
+button{
+    margin:20px;
+}
+
+div{
+    text-align:center;
+}
+.scoreBoard{
+    position:relative;
+    height:100px;
+}
+.result{
+    margin-top:10px;
+}
+.choices{
+    margin-top:10px;
+    text-align:center;
+}
+#user,#computer{
+    position:absolute;
+    
+}
+#computer{
+    right:0;
+    margin-top:;
+}
+#user{
+    left:0;
+    margin-top:;
+}
+.choice{
+    border-radius:10%;
+    display:inline-block ;
+    background:white;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family:American Typewriter, serif;
+    padding:10px;
+    
+}
+
+
+
+#computerScore,#userScore,#t{
+    display:inline-block ;
+    height:70px;
+    font-size:60px;
+}
+
+.green-glow{
+    background:green ;
+}
+.red-glow{
+    background:red;
+}
